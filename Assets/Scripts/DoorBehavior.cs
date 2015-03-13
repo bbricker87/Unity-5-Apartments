@@ -4,7 +4,7 @@ using System.Collections;
 
 public class DoorBehavior : MonoBehaviour {
 
-    private Animator animator;
+    internal Animator animator;
     private Text buttonText;
 
     internal bool opened = false;
